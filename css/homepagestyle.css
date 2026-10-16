@@ -24,20 +24,24 @@ header {
 header h1 {
     font-size:2em;
     margin-bottom: 10px;
+    
+
 }
 
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin:0;
     padding:0;
-    background-color:aliceblue
+    background-color:aliceblue;
+    text-align:center
 }
 
 header,footer {
     background-color:aliceblue;
     color:black;
     clear:both;
-    padding:20px
+    padding:20px;
+   
 }
 
 nav ul {
@@ -83,3 +87,39 @@ aside {
 footer {
     clear:both
 }
+
+h2 {
+    text-align:center
+}
+
+p {
+    text-align:center;
+    font-size:24px;
+}
+
+.search-bar input{
+    flex:1;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    float:right;
+   
+}
+
+.search-bar button {
+    padding:12px 20px;
+    background-color:lightblue;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    float:right;
+   
+
+}
+
+.search-bar button:hover{
+    background-color:#ccc
+}
+
