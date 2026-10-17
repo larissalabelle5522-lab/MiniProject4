@@ -3,3 +3,10 @@
     height: 280px;
     object-fit: cover;
 }
+
+.book-cover {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    border-radius:10px
+}

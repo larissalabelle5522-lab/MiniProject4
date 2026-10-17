@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="your name">
+
+        <title>The Drama Shelf</title>
+        
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/images.css">
+        <link rel="stylesheet" href="../css/form.css">
+        <a href="homepage.html">Homepage</a>
+    </head>
+
+    <body>
+        <h1>Review Page</h1>
+        <p>We want your opinion.</p>
+        
+        <nav>
+                <!-- put nav here -->
+        </nav>
+
+        <main class="review-container">
+            <h2>Share Your Review Here</h2>
+        
+            <form>
+                <label for="bookTitle:">Book Title</label>
+                <input type="text" id="bookTitle" name="bookTitle" required>
+
+                <label for="genre">Genre:</label>
+                <select id="genre" name="genre" required>
+                    <option value="">Choose a genre</option>
+                    <option value="Fantasy">Fantasy</option>
+                    <option value="drama">Drama</option>
+                    <option value="horror">Horror</option>
+                </select>
+
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Choose a rating.</option>
+                    <option value="★★★★★">Fantastic</option>
+                    <option value="★★★★">Very good</option>
+                    <option value="★★★">Good</option>
+                    <option value="★★">Okay</option>
+                    <option value="★">Needs to improvement</option>
+                </select>
+
+                <label for="review">Your Reviews:</label>
+                <textarea id="review" name="review" rows="6"
+                    placeholder="Write your thoughts..."
+                    required></textarea>
+                
+                <button type="submit">Submit Review</button>
+            </form>
+
+            <p id="message" aria-live="polite"></p>
+            <section id="reviews">
+                <h2>Reader Reviews</h2>
+                    <p>Submitted reiews will appear here.</p>
+            </section>
+        </main>
+
+        <script src="../js/javascript.js"></script>
+    </body>
+</html>

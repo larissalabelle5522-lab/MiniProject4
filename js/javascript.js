@@ -1,9 +1,10 @@
+// searchbar
 const books = [
     
 ];
 
-function searchBooks() [
-    const input = document
+function searchBooks()
+    [const input = document
     .getElementById("searchInput")
     .ariaValueMax.toLowerCase();
 ]
@@ -13,9 +14,9 @@ const results = books.filter(book=>
 );
 
 document.getElementById("results").innerHTML =
-    results.length
-    ? results.map(book =>`<p>{book}</p>`).join(""
-    :"<p>No books found.</p>";
+    {results.length
+        ? results.map(book =>`<p>{book}</p>`).join("")
+            :"<p>No books found.</p>";
 }
 
 document.getElementById("searchInput")
@@ -24,3 +25,5 @@ document.getElementById("searchInput")
             searchBooks();
         }
     });
+
+// Review form
