@@ -7,7 +7,7 @@
 
     <title>The Story Shelf</title>
     
-    <link rel="stylesheet" href="../css/homepagestyle.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="javascript" href="../js/homepage-searchbar.js">
     <link rel="stylesheet" href="../css/images.css">
 </head>
@@ -22,10 +22,9 @@
 
 <nav>
     <ul>
-        <a href="all-books">All Books</a>
-        <a href="#fantasy">Fantasy</a>
-        <a href="#horror">Horror</a>
-        <a href="#drama">Drama</a>
+        <li><a href="#fantasy">Fantasy</a></li>
+        <li><a href="#horror">Horror</a></li>
+        <li><a href="#drama">Drama</a></li>
     </ul>
 </nav>
 
@@ -43,73 +42,67 @@
         <button onclick="searchBooks()">Search</button>
     </div>
 
-    
-    <a class="homepage"></a>
-    <h2>Homepage</h2>
-    <p>Welcome to The Story Shelf! I can't wait for you to join us in your book reading and reviewing experience.<br>
-    You are welcome to look through every page like you are in your local library searching through shelves.This<br>
-    is the start of the book reviewing journey for this site, so feel comfortable expanding to it by adding your input. </p>
+<main>
+    <section id="homepage" class="intro container">
+         <h2>Homepage</h2>
+            <p>Welcome to The Story Shelf! I can't wait for you to join us in your book reading and reviewing experience.<br>
+            You are welcome to look through every page like you are in your local library searching through shelves.This<br>
+            is the start of the book reviewing journey for this site, so feel comfortable expanding to it by adding your input. </p>
 
    <hr> 
+    <section class="review container">
         <h2>Book Review</h2>
-            <section class="all-books">
-                <article class="book">
-                        <img 
-                            src="../images/allergic.jpeg"
-                            alt="Allergic"
-                        >
 
-                        <h3>Allergic</h3>
-                        <h4><b>Auther:</b></h4>
-                        <p class="rating">★★★★⯪</p>
-                        <p>"The sweetest story you'll read all year" - Terri Libenson</p>
-                        <p><b>Rating:</b>4.22/5</p>
-                    </article>
-                </section>
+        <div class="book-grid">
+
+            <article class="book-card" id="drama">
+                <img 
+                    src="../images/allergic.jpeg"
+                    alt="Cover of drama book"
+                    >
+                <h3>Drama Shelf</h3>
+                <p class="rating">★★★★</p>
+                <p>
+                    Looking for some drama? Then here you will find it!
+                </p>
+                <a href="./drama.html">Read Review and more</a>
+            </article>
+
+            <article class="book-card" id="fantasy">
+                  <img
+                    src="../images/battledragons.jpeg"
+                    alt="Cover of Fantasy page"
+                >
+                <h3>Fantasy Shelf</h3>
+                <p class="rating">★★★★</p>
+                <p>
+                    Looking for an escape from reality? Then check this out.
+                </p>
+
+                <a href="./fantasy.html">Read Review</a>
+            </article>
+
+
+            </article>
             
-                <section class="all-books">
-                    <article class="book">
-                    <img 
-                        src="../images/baby-sitters.jpeg" 
-                        alt="Baby-Sitters Club 2">
+            <article class="book-card" id=horror>
+                <img
+                    src="../images/buried.jpeg"
+                    alt="Cover of Horror page"
+                    >
+                <h3>Horror Shelf</h3>
+                <p class="rating">★★★★</p>
+                <p>
+                    If horror is your thing, then here you will find it. 
+                </p>
+                <a href="./horror.html">Read Review and more</a>
+            </article>
 
-                    <h3>Baby-Sitters Club</h3>
-                    <h5><b>Auther:</b></h5 >
-                    <p class="rating">★★★⯪</p>
-                    <p></p>
-                    <p><b>Rating:</b>3.5/5</p>
-                </article>
-             </section>
-
-                <section class="all-books">
-                    <article class="book">
-                        <img
-                            src="../images/battledragons.jpeg"
-                            alt="Battle Dragons"
-                        >
-
-                        <h3>Battle Dragons</h3>
-                        <h4></h4>
-                        <h5><b>Auther:</b></h5>
-                        <p class="rating">★★★⯪</p>
-                        <p>When Dragons almost drove themselves to extinction.</p>
-                        <p><b>Rating:</b>3.97/5</p>
-                    </article>
-                </section>
-
-                <section class="all-books"></section>
-                    <article class="book">
-                        <img
-                            src="../images/buried.jpeg"
-                            alt="The Buried"
-                    </article>
            
                     
 
  
-
-
-</body>
- 
-
-</html>
+            </section>
+        </main>
+    </body>
+ </html>

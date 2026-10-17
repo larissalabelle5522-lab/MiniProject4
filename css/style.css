@@ -51,6 +51,7 @@ nav ul {
     justify-content:center;
     gap:20px;
     margin:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 nav a {
@@ -122,4 +123,14 @@ p {
 .search-bar button:hover{
     background-color:#ccc
 }
+
+.book-card img{
+    padding:18px;
+    border-radius:12px;
+}
+
+
+
+
+
 
