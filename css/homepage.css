@@ -1,0 +1,66 @@
+.book-reviews {
+    max-width: 1100px;
+    margin;0 auto;
+    padding: 40px 20px;
+}
+
+.book-grid {
+    display:flex;
+    align-items:flex-start;
+    gap:15px;
+    padding:15px;
+    background-color:aliceblue;
+    border-radius:10px;
+}
+
+.book-card img{
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius:6px;
+}
+
+.book-cover {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    border-radius:10px
+}
+
+.book-info {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    min-width:0;
+}
+
+.book-info h3 {
+    margin-top:0;
+    margin-bottom:8px;
+}
+
+.book-info p {
+    margin:6px 0 12px;
+    line-height:1.5;
+}
+
+.rating {
+    color:gold
+}
+
+.book-info. a {
+    color:gold;
+    text-decoration:underline;
+    margin-top:auto;
+}
+
+.book-info a:hover {
+    text-decoration:underline
+}
+
+@media (max-width:900px) {
+    .book-grid{
+        grid-template-colums; repeat(2,minmax(0,1fr));
+    }
+}

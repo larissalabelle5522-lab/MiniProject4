@@ -80,7 +80,7 @@ main {
 
 aside {
     width:25%;
-    float:right;
+    float:left;
     padding:20%;
     background-color:aliceblue
 }
@@ -104,7 +104,7 @@ p {
     border:1px solid #ccc;
     border-radius:8px;
     font-size:16px;
-    float:right;
+    float:left;
    
 }
 
@@ -115,7 +115,7 @@ p {
     border:none;
     border-radius:8px;
     cursor:pointer;
-    float:right;
+    float:left;
    
 
 }
